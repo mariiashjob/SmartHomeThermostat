@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F99E03972A3F571400F5D3C3 /* SmartHomeThermostatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E03962A3F571400F5D3C3 /* SmartHomeThermostatApp.swift */; };
+		F99E03992A3F571400F5D3C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E03982A3F571400F5D3C3 /* ContentView.swift */; };
+		F99E039B2A3F571600F5D3C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99E039A2A3F571600F5D3C3 /* Assets.xcassets */; };
+		F99E039E2A3F571600F5D3C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99E039D2A3F571600F5D3C3 /* Preview Assets.xcassets */; };
+		F99E03A52A3F5E4500F5D3C3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E03A42A3F5E4500F5D3C3 /* Extensions.swift */; };
+		F99E03A72A3F5FEC00F5D3C3 /* ClimateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E03A62A3F5FEC00F5D3C3 /* ClimateCard.swift */; };
+		F99E03A92A3F6C4A00F5D3C3 /* ThermometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E03A82A3F6C4A00F5D3C3 /* ThermometerView.swift */; };
+		F99E03AB2A3F6C8F00F5D3C3 /* ThermometerPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E03AA2A3F6C8F00F5D3C3 /* ThermometerPlaceholderView.swift */; };
+		F99E03AD2A3F71F300F5D3C3 /* ThermometerDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E03AC2A3F71F300F5D3C3 /* ThermometerDialView.swift */; };
+		F99E03AF2A3F791B00F5D3C3 /* ThermometerSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E03AE2A3F791B00F5D3C3 /* ThermometerSummaryView.swift */; };
+		F99E03B12A3F7B5900F5D3C3 /* ThermometerScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E03B02A3F7B5900F5D3C3 /* ThermometerScaleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F99E03932A3F571400F5D3C3 /* SmartHomeThermostat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHomeThermostat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99E03962A3F571400F5D3C3 /* SmartHomeThermostatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeThermostatApp.swift; sourceTree = "<group>"; };
+		F99E03982A3F571400F5D3C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F99E039A2A3F571600F5D3C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F99E039D2A3F571600F5D3C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F99E03A42A3F5E4500F5D3C3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F99E03A62A3F5FEC00F5D3C3 /* ClimateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCard.swift; sourceTree = "<group>"; };
+		F99E03A82A3F6C4A00F5D3C3 /* ThermometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerView.swift; sourceTree = "<group>"; };
+		F99E03AA2A3F6C8F00F5D3C3 /* ThermometerPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerPlaceholderView.swift; sourceTree = "<group>"; };
+		F99E03AC2A3F71F300F5D3C3 /* ThermometerDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerDialView.swift; sourceTree = "<group>"; };
+		F99E03AE2A3F791B00F5D3C3 /* ThermometerSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerSummaryView.swift; sourceTree = "<group>"; };
+		F99E03B02A3F7B5900F5D3C3 /* ThermometerScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerScaleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F99E03902A3F571400F5D3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F99E038A2A3F571400F5D3C3 = {
+			isa = PBXGroup;
+			children = (
+				F99E03952A3F571400F5D3C3 /* SmartHomeThermostat */,
+				F99E03942A3F571400F5D3C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F99E03942A3F571400F5D3C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F99E03932A3F571400F5D3C3 /* SmartHomeThermostat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F99E03952A3F571400F5D3C3 /* SmartHomeThermostat */ = {
+			isa = PBXGroup;
+			children = (
+				F99E03962A3F571400F5D3C3 /* SmartHomeThermostatApp.swift */,
+				F99E03A42A3F5E4500F5D3C3 /* Extensions.swift */,
+				F99E03982A3F571400F5D3C3 /* ContentView.swift */,
+				F99E039A2A3F571600F5D3C3 /* Assets.xcassets */,
+				F99E039C2A3F571600F5D3C3 /* Preview Content */,
+				F99E03A62A3F5FEC00F5D3C3 /* ClimateCard.swift */,
+				F99E03A82A3F6C4A00F5D3C3 /* ThermometerView.swift */,
+				F99E03AA2A3F6C8F00F5D3C3 /* ThermometerPlaceholderView.swift */,
+				F99E03AC2A3F71F300F5D3C3 /* ThermometerDialView.swift */,
+				F99E03AE2A3F791B00F5D3C3 /* ThermometerSummaryView.swift */,
+				F99E03B02A3F7B5900F5D3C3 /* ThermometerScaleView.swift */,
+			);
+			path = SmartHomeThermostat;
+			sourceTree = "<group>";
+		};
+		F99E039C2A3F571600F5D3C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F99E039D2A3F571600F5D3C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F99E03922A3F571400F5D3C3 /* SmartHomeThermostat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99E03A12A3F571600F5D3C3 /* Build configuration list for PBXNativeTarget "SmartHomeThermostat" */;
+			buildPhases = (
+				F99E038F2A3F571400F5D3C3 /* Sources */,
+				F99E03902A3F571400F5D3C3 /* Frameworks */,
+				F99E03912A3F571400F5D3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartHomeThermostat;
+			productName = SmartHomeThermostat;
+			productReference = F99E03932A3F571400F5D3C3 /* SmartHomeThermostat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F99E038B2A3F571400F5D3C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F99E03922A3F571400F5D3C3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F99E038E2A3F571400F5D3C3 /* Build configuration list for PBXProject "SmartHomeThermostat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F99E038A2A3F571400F5D3C3;
+			productRefGroup = F99E03942A3F571400F5D3C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F99E03922A3F571400F5D3C3 /* SmartHomeThermostat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F99E03912A3F571400F5D3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99E039E2A3F571600F5D3C3 /* Preview Assets.xcassets in Resources */,
+				F99E039B2A3F571600F5D3C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F99E038F2A3F571400F5D3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99E03A92A3F6C4A00F5D3C3 /* ThermometerView.swift in Sources */,
+				F99E03992A3F571400F5D3C3 /* ContentView.swift in Sources */,
+				F99E03AB2A3F6C8F00F5D3C3 /* ThermometerPlaceholderView.swift in Sources */,
+				F99E03B12A3F7B5900F5D3C3 /* ThermometerScaleView.swift in Sources */,
+				F99E03A72A3F5FEC00F5D3C3 /* ClimateCard.swift in Sources */,
+				F99E03AF2A3F791B00F5D3C3 /* ThermometerSummaryView.swift in Sources */,
+				F99E03A52A3F5E4500F5D3C3 /* Extensions.swift in Sources */,
+				F99E03AD2A3F71F300F5D3C3 /* ThermometerDialView.swift in Sources */,
+				F99E03972A3F571400F5D3C3 /* SmartHomeThermostatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F99E039F2A3F571600F5D3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F99E03A02A3F571600F5D3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F99E03A22A3F571600F5D3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartHomeThermostat/Preview Content\"";
+				DEVELOPMENT_TEAM = YWH9V79N59;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project.SmartHomeThermostat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F99E03A32A3F571600F5D3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartHomeThermostat/Preview Content\"";
+				DEVELOPMENT_TEAM = YWH9V79N59;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project.SmartHomeThermostat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F99E038E2A3F571400F5D3C3 /* Build configuration list for PBXProject "SmartHomeThermostat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99E039F2A3F571600F5D3C3 /* Debug */,
+				F99E03A02A3F571600F5D3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99E03A12A3F571600F5D3C3 /* Build configuration list for PBXNativeTarget "SmartHomeThermostat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99E03A22A3F571600F5D3C3 /* Debug */,
+				F99E03A32A3F571600F5D3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F99E038B2A3F571400F5D3C3 /* Project object */;
+}
